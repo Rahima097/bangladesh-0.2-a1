@@ -133,7 +133,7 @@
   }
   /* vision of future section style */
   .vision-of-future{
-    margin-bottom: 80px;
+    margin-bottom: 32px;
   }
   .vision-of-future-cards{
     display: flex;
@@ -194,4 +194,35 @@
     font-size: 16px;
     font-weight: 600;
     margin-top: 24px;
+}
+/* Quote section styles */
+.quote{
+    background-color: #ffffff;
+    padding: 24px 48px;
+    margin-bottom: 80px;
+    border: 1px solid #0e0e0e2a;
+    border-radius: 16px;
+    gap: 12px;
+}
+.quote-name{
+    font-siz{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #0E0E0E;
+    }
+}
+.quote-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+.quote-description2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    margin-top: 12px;
 }

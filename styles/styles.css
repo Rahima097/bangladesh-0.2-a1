@@ -8,11 +8,10 @@
   *{
     margin: 0;
     padding: 0;
-    /* background-color: #F1F1F3; */
   }
   /* share style */
   .primary-bg{
-    background-color: #FFFFFF;
+    background-color: #F1F1F3;
   }
   .secondary-bg{
     background-color: #C6E4D6;
@@ -30,6 +29,36 @@
     color: #006A50;
     border: 1px solid #006A50;
     border-radius: 8px;
+  }
+  .section-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: start;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+  }
+  .section-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+  }
+  .card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    padding-bottom: 12px;
+  }
+  .card-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+  }
+  .card-img{
+    height: 64px;
+    width: 64px;
+    padding-bottom: 24px;
   }
   /* nav style */
   .nav{
@@ -50,6 +79,7 @@
    main{
     max-width: 1280px;
     margin: 0 auto;
+    
   }
   /* banner section style */
   .banner{
@@ -61,20 +91,107 @@
     border-radius: 24px;
     height: 560px;
     gap: 64px;
+    margin-bottom: 80px;
   }
   .banner-content{
-    /* background-color: #C6E4D6; */
-    gap: 24px;
-    width: 63%;
+    /* gap: 24px; */
+    width: 64%;
   }
   .banner-subtitle{
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 24px;
   }
   .banner-title{
     font-size: 56px;
     font-weight: bold;
+    margin-bottom: 24px;
   }
   .banner-img{
-    width: 47%;
+    width: 46%;
   }
+  /* pillars of BD section styles */
+  .pillars-of-bd{
+    gap: 32px;
+    margin-bottom: 80px;
+  }
+  .pillars-of-bd-cards{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-align: start;
+    padding-top: 32px;
+    justify-content: space-between;
+  }
+  .pillars-bd-card{
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 24px;
+    height: 244px;
+    width: 302px;
+  }
+  /* vision of future section style */
+  .vision-of-future{
+    margin-bottom: 80px;
+  }
+  .vision-of-future-cards{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .vision-of-future-card1{
+    padding: 32px;
+    gap: 24px;
+    background-color: #548ff528;
+    border-radius: 16px;
+    width: 410px;
+    height: 325;
+  }
+  .card1-btn{
+    background-color: #5490F5;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+.vision-of-future-card2{
+    padding: 32px;
+    gap: 24px;
+    background-color: #09a15d23;
+    border-radius: 16px;
+    width: 410px;
+    height: 325;
+  }
+  .card2-btn{
+    background-color: #09A15C;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 48px;
+}
+.vision-of-future-card3{
+    padding: 32px;
+    gap: 24px;
+    background-color: #ffc43925;
+    border-radius: 16px;
+    width: 410px;
+    height: 325;
+  }
+  .card3-btn{
+    background-color: #FFC239;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+}

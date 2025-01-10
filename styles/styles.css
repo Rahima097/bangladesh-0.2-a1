@@ -196,13 +196,21 @@
     margin-top: 24px;
 }
 /* Quote section styles */
+
 .quote{
     background-color: #ffffff;
+    text-align: start;
     padding: 24px 48px;
     margin-bottom: 80px;
     border: 1px solid #0e0e0e2a;
     border-radius: 16px;
     gap: 12px;
+}
+.quote-container{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 169px;
 }
 .quote-name{
     font-siz{
@@ -225,4 +233,56 @@
     line-height: 24px;
     color: #0E0E0E;
     margin-top: 12px;
+}
+/* Recent news section styles */
+.recent-news{
+    margin-bottom: 80px;
+}
+.news1{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    padding: 48px;
+    gap: 32px;
+    margin-top: 32px;
+}
+.news-img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.company-img{
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.news-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    margin-top: 12px;
+}
+.news-date-time{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+    margin-top: 12px;
+}
+.news-btn{
+    background-color: #006A50;
+    border: none;
+    padding: 13px 26px;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-top: 32px;
 }

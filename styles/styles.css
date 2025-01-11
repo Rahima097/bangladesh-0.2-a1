@@ -80,6 +80,9 @@
     align-items: center;
     padding: 24px 160px;
     height: 100px;
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: auto;
   }
   nav ul li{
     list-style: none;
@@ -318,13 +321,15 @@
 /* Donate section styles */
 .donate{
     margin-bottom: 80px;
-    margin-left: 105px;
-    margin-right: 105px;
+}
+.donate-today{
+  padding: 0px 105px;
 }
 .donate-container{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 24px;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -335,8 +340,6 @@
     padding: 40px 40px;
     border-radius: 16px;
     border: 1px solid #0e0e0e27;
-    /* width: 240px;
-    height: 128px; */
 }
 .donate-card:hover{
     background-color: #5490F5;
@@ -353,10 +356,17 @@
     background-color: #FFC239;
 }
 /* Donate form style */
- .donate-form form{
-    display: block;
-    text-align: center;
-    width: 100%;
+.donate-form{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* width: 100%; */
+}
+.donate-form{
+  display: flex;
+  flex-direction: column;
+  
  }
 .btn-form{
     background-color: #006A50;
@@ -364,8 +374,7 @@
     padding: 13px 26px;
     color: #ffffff;
     border-radius: 8px;
-    margin-top: 32px;
-    /* text-align: center; */
+    margin: 32px 0px 0px 0px;
 }
 .btn-form:hover{
     background-color: #FFC239;
@@ -376,7 +385,7 @@
     padding: 20px 40px;
     text-align: center;
     border: none;
-    margin: 0 24px;
+    margin: 0px;
 }
 /* Newslwtter section styles */
 .newslatter{
@@ -387,26 +396,38 @@
     text-align: center;
 }
 .newsletter-container{
-    justify-content: center;
+    padding: 0px 240px;
+}
+form{
+  gap: 0;
 }
 .newsletter-form form{
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 0px;
     margin: 0px;
     padding: 0px;
 }
-.newsletter-form input[type="text"]{
+.newsletter-form form input[type="text"]{
     padding: 18px 40px;
-    text-align: center;
+    text-align: start;
     border: none;
     margin: 24px 0px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    width: 75%;
 }
-.newslwtter-btn{
+.newsletter-btn{
     background-color: #006A50;
     border: none;
     padding: 17px 34px;
     color: #ffffff;
-    margin: 24px 0px;
+    margin:24px 0px;
+    border-radius: 0px 10px 10px 0;
+    width: 25%;
+
 }
 /* Footer section style */
 .footer{

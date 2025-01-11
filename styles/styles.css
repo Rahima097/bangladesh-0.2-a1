@@ -408,3 +408,21 @@
     color: #ffffff;
     margin: 24px 0px;
 }
+/* Footer section style */
+.footer{
+    padding: 50px 160px;
+}
+.footer title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.social-link{
+    gap: 23px;
+    margin: 24px 0px;
+}
+footer a{
+    padding: 0px 10px;
+}
+footer{
+    background-color: #ffffff;
+}

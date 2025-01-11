@@ -16,6 +16,12 @@
   .secondary-bg{
     background-color: #C6E4D6;
   }
+  .text-center{
+    text-align: center;
+    .text-start{
+        text-align: start;
+    }
+  }
   .btn-primary{
     background-color: #006A50;
     border: none;
@@ -23,6 +29,10 @@
     color: #ffffff;
     border-radius: 24px;
   }
+  .btn-primary:hover{
+    background-color: #FFC239;
+    color: #006A50;
+}
   .btn-Secondary{
     background-color: #ffffff;
     padding: 15px 30px;
@@ -30,10 +40,13 @@
     border: 1px solid #006A50;
     border-radius: 8px;
   }
+  .btn-Secondary:hover{
+    background-color: #FFC239;
+    color: #006A50;
+}
   .section-title{
     font-size: 40px;
     font-weight: bold;
-    text-align: start;
     color: #0E0E0E;
     margin-bottom: 24px;
   }
@@ -125,7 +138,7 @@
   }
   .pillars-bd-card{
     background-color: #ffffff;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.178);
     border-radius: 16px;
     padding: 24px;
     height: 244px;
@@ -161,6 +174,10 @@
     font-weight: 600;
     margin-top: 24px;
 }
+.card1-btn:hover{
+    background-color: #ffffff;
+    color: #006A50;
+}
 .vision-of-future-card2{
     padding: 32px;
     gap: 24px;
@@ -178,6 +195,10 @@
     font-weight: 600;
     margin-top: 48px;
 }
+.card2-btn:hover{
+    background-color: #ffffff;
+    color: #006A50;
+}
 .vision-of-future-card3{
     padding: 32px;
     gap: 24px;
@@ -194,6 +215,10 @@
     font-size: 16px;
     font-weight: 600;
     margin-top: 24px;
+}
+.card3-btn:hover{
+    background-color: #ffffff;
+    color: #006A50;
 }
 /* Quote section styles */
 
@@ -285,4 +310,71 @@
     color: #ffffff;
     border-radius: 8px;
     margin-top: 32px;
+}
+.news-btn:hover{
+    background-color: #FFC239;
+    color: #006A50;
+}
+/* Donate section styles */
+.donate{
+    margin-bottom: 80px;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+.donate-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+}
+.donate-card{
+    background-color: #ffffff;
+    padding: 40px 40px;
+    border-radius: 16px;
+    border: 1px solid #0e0e0e27;
+    /* width: 240px;
+    height: 128px; */
+}
+.donate-card:hover{
+    background-color: #5490F5;
+}
+.donate-card2{
+    background-color: #C6E4D6;
+    padding: 40px 40px;
+    border-radius: 16px;
+    border: 1px solid #0e0e0e27;
+    /* width: 240px;
+    height: 128px; */
+}
+.donate-card2:hover{
+    background-color: #FFC239;
+}
+/* Donate form style */
+ .donate-form form{
+    display: block;
+    text-align: center;
+    width: 100%;
+ }
+.btn-form{
+    background-color: #006A50;
+    border: none;
+    padding: 13px 26px;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-top: 32px;
+    /* text-align: center; */
+}
+.btn-form:hover{
+    background-color: #FFC239;
+    color: #006A50;
+}
+.donate-form input[type="text"]{
+    width: 100%;
+    padding: 20px 40px;
+    text-align: center;
+    border: none;
+    margin: 0 24px;
 }
